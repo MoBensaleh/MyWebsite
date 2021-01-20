@@ -692,7 +692,6 @@ p, li, label, input, textarea{
 
 
 
-
     .right-column{
         position: static;
         width: 100%;
@@ -715,6 +714,11 @@ p, li, label, input, textarea{
         
 
     }
+    .post-wrapper{
+        grid-template-columns: repeat(auto-fit, 400px);
+
+    }
+   
 
     #contact-form{
         max-width: 500px;
