@@ -9,6 +9,8 @@ if(isset($_POST['submit'])){
     $mailTo = "mohamed.bensaleh@usask.ca";
     $headers = "From: ".$mailFrom;
     $txt = "You have received an e-mail from" .$name.'.\n\n'.$message;
+
+    mail($mailTo, $subject, $message, $headers);
     
     if(mail($mailTo, $subject, $message, $headers)){
         echo '<br>';
