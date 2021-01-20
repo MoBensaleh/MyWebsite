@@ -395,11 +395,15 @@ p, li, label, input, textarea{
 }
 
 .post-title{
+ 
     margin-top: 5px;
+    font-size: 24px;
     color: #fff;
+    width: 90%;
     
     margin-bottom: 20px;
 }
+   
 
 .post-intro{
     color: white;
@@ -408,24 +412,26 @@ p, li, label, input, textarea{
 }
 
 .github-link{
-
-    font-size: 30px;
+   
     float: right;
-    margin-top: -5px;
+    font-size: 28px;
+    padding-right: 7px;
+    padding-left: 7px;
+    
+    
 }
 
 .launch-link{
-    font-size: 30px;
     float: right;
-    margin-top: -6px;
-
-    margin-left: 10px;
-   
-
+    font-size: 28px;
+    padding-right: 7px;
+    top: 0px;
+    
 }
 
 .launch-link:hover{
     color: #66fcf1;
+
 
 }
 
@@ -445,9 +451,6 @@ p, li, label, input, textarea{
    
     
 }
-
-
-
 
 
 .corner{
@@ -536,6 +539,7 @@ p, li, label, input, textarea{
 @media screen and (max-width: 1100px){
    
 
+    
     .intro-wrapper{
         grid-template-columns: 1fr;
         grid-template-areas: 
@@ -665,8 +669,18 @@ p, li, label, input, textarea{
         font-size: 60px;
         padding-right: 27px;
         padding-left: 27px;
-        background-color: rgba(255, 255, 255, 0);    
+        background-color: rgba(255, 255, 255, 0); 
+     
     }
+
+    .icon-bar a:hover{
+
+        color: white;
+    }
+
+
+
+    
 
     #icon-navigation{
         display: flex;
@@ -715,7 +729,7 @@ p, li, label, input, textarea{
 
     }
     .post-wrapper{
-        grid-template-columns: repeat(auto-fit, 400px);
+        grid-template-columns: repeat(auto-fit, 85vw);
 
     }
    
