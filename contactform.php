@@ -11,15 +11,6 @@ if(isset($_POST['submit'])){
     $txt = "You have received an e-mail from" .$name.'.\n\n'.$message;
 
     mail($mailTo, $subject, $message, $headers);
-    
-    if(mail($mailTo, $subject, $message, $headers)){
-        echo '<br>';
-        echo "Thanks for contacting me! I will get back to you as soon as I can.";
-    }
-    
-    else{
-        echo "Something went wrong!";
-    }
 
     header("Location: index.html?mailsend");
 
