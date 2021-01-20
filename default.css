@@ -11,7 +11,14 @@ html, body{
     z-index: 4;
     scroll-behavior: smooth;
 
-
+}
+footer{
+    position: relative; 
+    bottom:40px; 
+    text-align: center; 
+    z-index: 4;
+    color: white;
+    
 }
 
 *{
@@ -494,7 +501,7 @@ p, li, label, input, textarea{
     padding: 15px;
     border-radius: 5px;
     background-color: #1f2833;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
     z-index: 3;
 
 }
@@ -509,7 +516,7 @@ p, li, label, input, textarea{
 
 #contact-form label{
     line-height: 30px;
-    color: rgb(201, 201, 201);
+    color: rgb(214, 214, 214);
     font-size: 16px;
     padding-top: 10px;
     font-weight: 300;
