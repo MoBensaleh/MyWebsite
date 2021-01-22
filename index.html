@@ -197,23 +197,19 @@
                 
                 <form id="contact-form" name="contact" action="contactform.php" method="POST" data-netlify="true">
                     <label>Name</label>
-                    <input class="input-field" type="text" name="name">
+                    <input class="input-field" type="text" name="name" required>
 
                     <label>Subject</label>
-                    <input class="input-field" type="text" name="subject">
+                    <input class="input-field" type="text" name="subject" required>
 
                     <label>Email</label>
-                    <input class="input-field" type="text" name="email">
+                    <input class="input-field" type="text" name="email" required>
 
                     <label>Message</label>
-                    <textarea class="input-field" name="message"></textarea>
+                    <textarea class="input-field" name="message"required></textarea>
 
-                    <div data-netlify-recaptcha="true">
-                        
-
-                    </div>
-
-
+                    <div data-netlify-recaptcha="true"></div>
+                    
                     <button id="submit_btn" type="submit" name="submit">Submit
                     </button>                
                 </form>
