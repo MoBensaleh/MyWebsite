@@ -420,13 +420,14 @@ p, li, label, input, textarea{
     padding-left: 7px;
     
     
+    
 }
 
 .launch-link{
     float: right;
     font-size: 28px;
     padding-right: 7px;
-    top: 0px;
+    
     
 }
 
