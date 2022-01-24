@@ -1,2 +1,2 @@
 # MyWebsite
-A dynamic website that showcases my professional portfolio, resume and contact information
+My first portfolio project that served as my introduction to Web Development. Developed using basic HTML, CSS and JavaScript.
